@@ -20,10 +20,8 @@ function VerificaContatoExistente(){
         document.querySelector('.sucess').style.display = 'block'
         numbercontact.push(numberinput.value)
         namecontact.push(nameinput.value.toUpperCase())
-        console.log(namecontact)
-        console.log(numbercontact)
         AddRow()
-        }
+    }
 }
 function AddRow(){
     const nameinput = document.getElementById('nameinput')
